@@ -1,0 +1,59 @@
+@import 'fonts.css';
+
+:root{
+    --a: 'Aorom';
+    --m: 'mont';
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+li, .ha, .cta, button{
+  font-family: var(--m), sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+}
+.logo{
+    cursor: pointer;
+    font-family: var(--m);
+    font-size: 38px;
+    font-weight: 500;
+    color: #fff;
+}
+.nav__links li{
+ display: inline-block;
+ padding: 0 20px;
+}
+.nav__links li a{
+transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+color: #0088a9;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
