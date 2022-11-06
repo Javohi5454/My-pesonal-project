@@ -34,7 +34,7 @@ li, .ha, .cta, button{
     font-size: 40px;
     font-weight: 500;
     color: #fff;
-    padding: 10px;
+    
     transition: all 0.4s ease 0s;
 }
 .logo:hover{
@@ -42,7 +42,7 @@ li, .ha, .cta, button{
     background: #0088a9;
     color: #24252a;
     transition: all 0.4s ease 0s;
-    
+    padding: 10px;
 }
 .nav__links li{
  display: inline-block;
@@ -53,6 +53,7 @@ transition: all 0.3s ease 0s;
 }
 .nav__links li a:hover{
 color: #0088a9;
+margin: 10px;
 }
 button{
     padding: 9px 25px;
@@ -64,6 +65,8 @@ button{
 }
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
+    margin: 10px;
+
 }
 .btns-navbar{
     width:  30px;
