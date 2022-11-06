@@ -31,9 +31,18 @@ li, .ha, .cta, button{
 .logo{
     cursor: pointer;
     font-family: var(--m);
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 500;
     color: #fff;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+}
+.logo:hover{
+    border-radius: 35px;
+    background: #0088a9;
+    color: #24252a;
+    transition: all 0.4s ease 0s;
+    
 }
 .nav__links li{
  display: inline-block;
